@@ -32,7 +32,7 @@ The core rule of the game is spreading out. Take the block at the corner as an e
 And for the blocks by the side, they need **3** pieces to spread out. For the blocks in the middle, they need **4**.  
   The spread out also has the possibility of chain reaction. If another block reaches the requirement of spreading out after one block's spread, it will spread out instantly as well.
 
-  The goal is to ***turn*** all the pieces on the board to your side. Of course, after both players have dropped their first piece.  
+  The goal is to ***turn*** all the pieces on the board to your side. Of course, it starts only after both players have dropped their first pieces.  
 
   The input stands for a position(<line>,<row>). For instance, "0,1" stands for the block in line 0 and row 1. To ensure the best experience, using "0,0" as player 1's first input is recommended.  
   The board is displayed by directly printing the board on the terminal. Do ensure you run it on **python3 for linux**.  
