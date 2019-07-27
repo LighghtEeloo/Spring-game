@@ -28,8 +28,9 @@ The core rule of the game is spreading out. Take the block at the corner as an e
 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 0 | 0 | 0 |
 
-  Also the pieces currently located in these invaded blocks will be ***turned*** to the invader's pieces.  
+  Also the pieces currently located in these invaded blocks will be ***turned*** to the invader's side.  
 And for the blocks by the side, they need **3** pieces to spread out. For the blocks in the middle, they need **4**.  
+  The spread out also has the possibility of chain reaction. If another block reaches the requirement of spreading out after one block's spread, it will spread out instantly as well.
 
   The goal is to ***turn*** all the pieces on the board to your side. Of course, after both players have dropped their first piece.  
 
