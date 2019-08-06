@@ -1,5 +1,7 @@
 # Spring-game
   This is a minor chess game powered by python3 on linux.  
+  There's another name for the game: Mickey's world.  
+  
   This is a chess game with the following rules:  
 
 |  |  |  |  |  |
@@ -37,6 +39,6 @@ And for the blocks by the side, they need **3** pieces to spread out. For the bl
   The input stands for a position(<line>,<row>). For instance, "0,1" stands for the block in line 0 and row 1. To ensure the best experience, using "0,0" as player 1's first input is recommended.  
   The board is displayed by directly printing the board on the terminal. Do ensure you run it on **python3 for linux**.  
   
-  Oh, you can also run it on qpython3 on android phones.   
+  Oh, you can also run it on **qpython3** on android phones.   
   
   Have fun!
