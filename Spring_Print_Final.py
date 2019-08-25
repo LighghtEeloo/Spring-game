@@ -29,13 +29,15 @@ class Board(object):
             lst = []
             flag = False
             for pos in self.board:
-                if self.board[pos][1] == self._check(pos):
+                if self.board[pos][1] >= self._check(pos):
                     print('blooming:', pos)
                     lst = self._bloom(player,pos)
                     flag = True
                     break
             if flag:
-                del self.board[pos]
+                self.board[pos][1] -= self._check(pos)
+                if self.board[pos][1] == 0:
+                    del self.board[pos]
                 self._bigdrop(player,lst,override = True)
             else:
                 break
