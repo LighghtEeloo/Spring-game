@@ -1,6 +1,6 @@
 # Spring-game
   Do check the [Original Version](https://github.com/Narukara/unnamed_chess) .  
-  This is a minor chess game powered by python3 on linux.  
+  This is a minor chess game powered by python3 on linux-based system (for colorful output).  
   It was an additional arcade in a game called *Mickey's World* on Nokia.  
   
   This is a chess game with the following rules:  
